@@ -23,7 +23,7 @@ const Cards = () => {
                       <p className="text-2xl font-bold leading-relaxed">Connect your physical card to your personal Pocket, Groups, and Shops. You're in complete control.</p>
                     </div>
                     <div className="relative flex w-full row-span-1 pb-0 mb-0">
-                      <img src={card} alt=" " className="md:pt-[88px] pb-0 mx-auto mb-0 md:-mt-52" />
+                      <img src={card} alt=" " className="md:pt-[88px] pt-0  pb-0 mx-auto mb-0 md:-mt-52" />
                     </div>
                 </div>
             </div>
