@@ -11,6 +11,10 @@ const Cards = () => {
         <p className="text-[1rem] md:text-[2rem] font-bold leading-[1.35em] mt-0 mb-[1rem] text-[#bfc2d9]">
             All your transactions in one place
         </p>
+        <div className="grid items-center content-center justify-center grid-cols-1 gap-4 mx-auto md:gap-8 md:grid-cols-5">
+            <div className="col-span-3 min-h-[600px] bg-black h-96"> hello</div>
+            <div className="col-span-2  min-h-[600px] bg-black"> hello</div>
+        </div>
     </div>
   )
 }
