@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Eina", sans-serif;
+  background: #fff;
+}
+
+.hero{
+  background-image: url('../src/assets/bg.png');
+  background-size: cover;
+  background-clip: content-box;
+
+}
+
+.light{
+    padding-bottom: 0px;
+    background: url('../src/assets/light.png') 125px 85px / 100% no-repeat rgb(116, 54, 245);
+    background-position: 125px 85px;
+}
+
+.phone2{
+  margin: auto;
+  
+}
+
+.ash{
+  background: #f4f3f5 url(../src/assets/ash.png);
+  background-position: -50px 20px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  padding-top: 1em;
+}
