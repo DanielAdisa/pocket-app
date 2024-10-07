@@ -23,7 +23,7 @@ const Hero1 = () => {
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receiving and managing your money a breeze.
                 </p>
         </div>
-        <div className=" min-h-[50%] relative  min-w-[398px] md:min-h-dvh md:min-w-[620px] md:col-span-1" >
+        <div className=" min-h-[50%] relative hidden min-w-[398px] md:min-h-dvh md:min-w-[620px] md:col-span-1" >
         <img src={card} height={320} width={320} alt="" className="absolute z-20 pt-96 md:pt-[500px] md:ml-28 "/>
               <img src={phone} height={280} width={280} alt="" className="absolute z-10 md:pt-[110px] md:ml-[135px]"/>
               <img src={card1} height={320} width={320} alt="" className="absolute z-0 md:pt-[350px] md:ml-[-50px]"/>
