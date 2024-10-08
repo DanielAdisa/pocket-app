@@ -8,11 +8,11 @@ import logo from "../assets/react.svg"
 
 const Hero1 = () => {
   return (
-    <div className=" hero md:h-[70vh] h-[125dvh]  w-dvw text-stone-100">
+    <div className=" hero md:h-[70vh] h-[100dvh]  w-dvw text-stone-100">
         <div className="flex flex-wrap-reverse items-center lg:flex-row-reverse md:max-w-[940px] pt-20 md:mx-auto">
             <div className="w-full md:w-1/2 ">
                 <div className="flex justify-center lg:p-8 ">
-                    <img src={phone} alt="Daniel Adisa" className=" w-[350px] md:w-[2000px]" width={1000} height={1000} />
+                    <img src={phone} alt="Daniel Adisa" className=" animate-bounce ease-in-out transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
                 </div>
             </div>
 
@@ -22,7 +22,7 @@ const Hero1 = () => {
                 <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">money</div>
                 <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">moves</div>
               </h1>
-              <p className="md:text-2xl md:leading-none md:m-0 mx-auto text-center md:text-start w-[70%]  mb-[50px] font-thin">
+              <p className="md:text-2xl md:leading-none md:m-0 mx-auto text-center md:text-start   mb-[50px]">
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receiving and managing your money a breeze.
               </p>
 
