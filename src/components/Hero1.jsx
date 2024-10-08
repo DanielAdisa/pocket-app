@@ -4,6 +4,10 @@ import card from "../assets/cardmain.png"
 import card1 from "../assets/card2.png"
 import card2 from "../assets/card3.png"
 import logo from "../assets/react.svg"
+import { FaGooglePlay } from "react-icons/fa6";
+import { FaAppStoreIos } from "react-icons/fa";
+
+
 
 
 const Hero1 = () => {
@@ -12,7 +16,7 @@ const Hero1 = () => {
         <div className="flex flex-wrap-reverse items-center lg:flex-row-reverse md:max-w-[940px] pt-6 md:pt-20 md:mx-auto">
             <div className="w-full md:w-1/2 ">
                 <div className="flex justify-center lg:p-8 ">
-                    <img src={phone} alt="Daniel Adisa" className=" animate-bounce delay-1000 duration-700 ease-in-out transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
+                    <img src={phone} alt="Daniel Adisa" className=" delay-1000 duration-700 ease-in-out transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
                 </div>
             </div>
 
@@ -22,9 +26,12 @@ const Hero1 = () => {
                 <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">money</div>
                 <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">moves</div>
               </h1>
-              <p className="md:text-xl text-base md:leading-none leading-normal tracking-wide md:m-0 mx-auto w-[80%] md:w-[80%] text-start md:text-start    mb-[110px]">
+              <p className="md:text-xl text-base md:leading-none leading-normal tracking-wide md:m-0 mx-auto w-[80%] md:w-[80%] text-center md:text-start    mb-[30px]">
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receiving and managing your money a breeze.
               </p>
+
+              <p className="pt-2 text-center flex items-center gap-2 md:hidden mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaAppStoreIos className="" /></span>App Store</p>
+              <p className="pt-2 text-center flex items-center gap-2 md:hidden mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>
         </div>
