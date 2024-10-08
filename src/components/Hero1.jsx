@@ -36,16 +36,18 @@ const Hero1 = () => {
 
             <div className="w-full md:w-1/2">
             <h1 className=" mb-[50px] leading-none md:leading-none">
-                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">Make</div>
-                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">money</div>
-                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[120px] font-bold">moves</div>
+                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[80px] font-bold">Send</div>
+                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[80px] font-bold">Recieve</div>
+                <div className="text-center text-[80px] md:text-center md:w-[60%] box-border md:text-[80px] font-bold">&</div>
+                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[80px] font-bold">Manage</div>
+                <div className="text-center text-[80px] md:text-start w-[100%] box-border md:text-[80px] font-bold">Money</div>
               </h1>
               <p className="md:text-xl text-base md:leading-none leading-normal tracking-wide md:m-0 mx-auto w-[80%] md:w-[80%] text-center md:text-start    mb-10">
-                  …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receiving and managing your money a breeze.
+                  …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receivi8 and managing your money a breeze.
               </p>
 
               <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><SiAppstore className="" /></span>App Store</p>
-              <p className="pt-2 text-center flex items-center  border-red-700 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
+              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>
         </div>
