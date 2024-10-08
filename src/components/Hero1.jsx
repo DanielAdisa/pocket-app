@@ -7,6 +7,7 @@ import logo from "../assets/react.svg"
 import { FaGooglePlay } from "react-icons/fa6";
 import { FaAppStoreIos } from "react-icons/fa";
 import { SiAppstore } from "react-icons/si";
+import { GiPayMoney } from "react-icons/gi";
 
 
 
@@ -14,6 +15,18 @@ import { SiAppstore } from "react-icons/si";
 const Hero1 = () => {
   return (
     <div className=" hero md:h-[70vh] h-fit pb-12  w-dvw text-stone-100">
+      <nav className="py-4 mx-auto md:px-8">
+        <div className="flex items-center justify-between">
+        <div className="flex ml-4">
+            <p className="pt-2 pb-2 pl-4 pr-4 rounded-full text-stone-50 hover:bg-blue-600 hover:text-stone-300 "><GiPayMoney className="text-3xl " /></p>
+        </div>
+        <div className="flex ml-4 mr-4 space-x-6">
+            <p className="pt-2 pb-2 pl-4 pr-4 text-[#034b93] rounded-full bg-stone-300">Login</p>
+            <p className="pt-2 pb-2 pl-5 pr-5 bg-blue-600 rounded-full text-stone-50">Register</p>
+        </div>
+        
+        </div>
+    </nav>
         <div className="flex flex-wrap-reverse items-center lg:flex-row-reverse md:max-w-[940px] pt-6 md:pt-20 md:mx-auto">
             <div className="w-full md:w-1/2 ">
                 <div className="flex justify-center lg:p-8 ">
@@ -32,7 +45,7 @@ const Hero1 = () => {
               </p>
 
               <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><SiAppstore className="" /></span>App Store</p>
-              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
+              <p className="pt-2 text-center flex items-center  border-red-700 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>
         </div>

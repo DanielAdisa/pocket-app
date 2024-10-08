@@ -7,7 +7,7 @@ import Payments from "./components/Payments"
 const App = () => {
   return (
     <div className=" text-stone-900 md:min-w-[940px] md:mx-auto overflow-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero1 />
       <Payments />
       <Cards />
