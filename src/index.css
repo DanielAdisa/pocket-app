@@ -10,15 +10,15 @@
 }
 
 .hero{
-  background-image: url('../src/assets/bg.png');
+  background-image: url('../src/assets/bg2.png');
   background-size: cover;
-  background-clip: content-box;
+  background-clip: border-box;
 
 }
 
 .light{
     padding-bottom: 0px;
-    background: url('../src/assets/light.png') 125px 85px / 100% no-repeat rgb(116, 54, 245);
+    background: url('../src/assets/light.png') 125px 85px / 100% no-repeat rgb(8, 140, 186);
     background-position: 125px 85px;
 }
 

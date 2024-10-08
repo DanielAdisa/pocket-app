@@ -1,6 +1,6 @@
 import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
-import phone from "../assets/phone.png"
+import phone from "../assets/Onboarding3.png"
 import ashphone from "../assets/ashphone.png"
 
 const Payments = () => {
@@ -22,7 +22,7 @@ const Payments = () => {
                   <p className="text-[1.3em] font-bold  text-white">
                       Experience lightning-fast transfers when you make and receive payments with your Pocket ID.
                   </p>
-                  <img src={phone} alt=""  height={320} width={320} className="justify-center pt-10 md:pt-32 phone2"/>
+                  <img src={phone} alt=""  height={280} width={280} className="justify-center pt-10 mb-0 md:pt-32 phone2"/>
                 </div>
             </div>
             {/* Green Div */}

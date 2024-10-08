@@ -20,7 +20,7 @@ const Cards = () => {
             <div className="md:col-span-3 col-span-1 max-h-fit md:max-h-[600px] bg-[#f0eff2] rounded-[36px] pb-0 p-10 ">
                 <div className="grid grid-rows-2 gap-4">
                     <div className="row-span-1 pb-0 mb-0">
-                      <p className="text-2xl font-bold leading-relaxed">Connect your physical card to your personal Pocket, Groups, and Shops. You're in complete control.</p>
+                      <p className="text-3xl font-bold leading-snug">Connect your physical card to your personal Pocket, Groups, and Shops. You're in complete control.</p>
                     </div>
                     <div className="relative flex w-full row-span-1 pb-0 mb-0">
                       <img src={card} alt=" " className="md:pt-[88px] pt-0  pb-0 mx-auto mb-0 md:-mt-52" />
