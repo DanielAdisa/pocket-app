@@ -14,15 +14,15 @@ import { GiPayMoney } from "react-icons/gi";
 
 const Hero1 = () => {
   return (
-    <div className=" hero md:h-[70vh] h-fit pb-12  w-dvw text-stone-100">
+    <div className=" hero  md:h-[70vh] h-fit pb-12  w-dvw text-stone-100">
       <nav className="py-4 mx-auto md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">
             <p className="pt-2 pb-2 pl-4 pr-4 rounded-full text-stone-50 hover:bg-blue-600 hover:text-stone-300 "><GiPayMoney className="text-3xl " /></p>
         </div>
         <div className="flex ml-4 mr-4 space-x-6">
-            <p className="pt-2 pb-2 pl-4 pr-4 text-[#034b93] rounded-full bg-stone-300">Login</p>
-            <p className="pt-2 pb-2 pl-5 pr-5 bg-blue-600 rounded-full text-stone-50">Register</p>
+            <p className="pt-2 pb-2 pl-4 pr-4 text-[#034b93] font-semibold rounded-full bg-stone-50">Login</p>
+            <p className="pt-2 pb-2 pl-5 pr-5 bg-[#034b93] rounded-full text-stone-50">Register</p>
         </div>
         
         </div>
