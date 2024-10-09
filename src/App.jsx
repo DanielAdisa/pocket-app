@@ -4,6 +4,7 @@ import Hero1 from "./components/Hero1"
 import Navbar from "./components/Navbar"
 import Payments from "./components/Payments"
 import Testimonials from "./components/Testimonials"
+import Testimonials1 from "./components/Testimonials1"
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <Hero1 />
       <Payments />
       <Cards />
-      <Testimonials />
+      <Testimonials1 />
     </div>
   )
 }

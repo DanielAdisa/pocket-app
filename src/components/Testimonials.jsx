@@ -171,7 +171,8 @@ const Testimonials = () => {
                     </div>
                     
                 </div>
-            </div>    
+            </div>
+            <div className="mt-8 ml-10 mr-10 border-b-2"/>    
     </div>
   )
 }
