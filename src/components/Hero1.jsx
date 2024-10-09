@@ -30,7 +30,7 @@ const Hero1 = () => {
         <div className="flex flex-wrap-reverse items-center lg:flex-row-reverse md:max-w-[940px] pt-6 md:pt-20 md:mx-auto">
             <div className="w-full md:w-1/2 ">
                 <div className="flex justify-center lg:p-8 ">
-                    <img src={phone} alt="Daniel Adisa" className=" delay-1000 duration-700 ease-in-out transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
+                    <img src={phone} alt="Daniel Adisa" className=" delay-1000 duration-700 ease-in-out animate-loop-bounce transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
                 </div>
             </div>
 
