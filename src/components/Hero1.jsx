@@ -14,8 +14,8 @@ import { GiPayMoney } from "react-icons/gi";
 
 const Hero1 = () => {
   return (
-    <div className=" hero  md:h-[70vh] h-fit pb-12  w-dvw text-stone-100">
-      <nav className="py-4 mx-auto md:px-8">
+    <div className="pb-12 hero md:h-fit h-fit w-dvw text-stone-100">
+      <nav className="py-4 mx-auto shadow-md md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">
             <p className="pt-2 pb-2 pl-4 pr-4 rounded-full text-stone-50 hover:bg-blue-600 hover:text-stone-300 "><GiPayMoney className="text-3xl " /></p>
