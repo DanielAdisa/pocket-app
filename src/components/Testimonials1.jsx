@@ -16,7 +16,7 @@ const Testimonials1 = () => {
             {TESTIMONIALS.map((t, index) => (
                <div key={index} className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[20px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex flex-col rounded-2xl">
                <div className="flex flex-row items-center w-full gap-3 mb-4">
-               <FaUserCircle className="text-5xl "/>
+               {t.image}
                <div className="flex flex-col text-[0.7rem]">
                    <h1 className="-mb-1 font-semibold ">{t.name}</h1>
                    <h1>{t.handle}</h1>
@@ -32,7 +32,7 @@ const Testimonials1 = () => {
             {TESTIMONIALS.map((t, index) => (
                <div key={index} className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[20px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex flex-col rounded-2xl">
                <div className="flex flex-row items-center w-full gap-3 mb-4">
-               <FaUserCircle className="text-5xl "/>
+               {t.image}
                <div className="flex flex-col text-[0.7rem]">
                    <h1 className="-mb-1 font-semibold ">{t.name}</h1>
                    <h1>{t.handle}</h1>
