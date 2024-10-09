@@ -15,7 +15,7 @@ import { GiPayMoney } from "react-icons/gi";
 const Hero1 = () => {
   return (
     <div className="pb-12 hero md:h-fit h-fit w-dvw text-stone-100">
-      <nav className="py-4 mx-auto shadow-md md:px-8">
+      <nav className="py-4 mx-auto shadow-md md:shadow-none md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">
             <p className="pt-2 pb-2 pl-4 pr-4 rounded-full text-stone-50 hover:bg-blue-600 hover:text-stone-300 "><GiPayMoney className="text-3xl " /></p>
@@ -46,7 +46,7 @@ const Hero1 = () => {
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receivi8 and managing your money a breeze.
               </p>
 
-              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><SiAppstore className="" /></span>App Store</p>
+              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight animate-pulse delay-700  transition-all ease-in-out mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><SiAppstore className="" /></span>App Store</p>
               <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>
