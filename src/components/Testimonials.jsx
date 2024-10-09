@@ -20,7 +20,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -33,7 +33,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -46,7 +46,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -59,7 +59,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -72,7 +72,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -85,7 +85,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -100,7 +100,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -113,7 +113,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -126,7 +126,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -139,7 +139,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -152,7 +152,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
@@ -165,7 +165,7 @@ const Testimonials = () => {
                             <h1>@Handle</h1>
                         </div>
                         </div>
-                        <p className="mb-6 text-[1rem] leading-none tracking-wide text-left ">
+                        <p className="mb-6 p-2 text-[0.8rem] leading-none tracking-wide text-left ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolore exercitationem vel rerum illo quaerat labore.
                         </p>
                     </div>
