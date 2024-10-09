@@ -13,24 +13,68 @@ const Testimonials = () => {
         </p>
             <div className="flex gap-6">
                 <div className="flex gap-6 animate-loop-scroll ">
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
                 </div>
                 <div className="flex gap-6 animate-loop-scroll ">
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
-                    <div className="h-[187px] md:w-[428px] md:h-[263px] p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] rounded-2xl"></div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
+                    <div className="h-fit md:w-[428px] md:h-fit p-[10px] md:p-[12px] w-[270px] border-stone-400 bg-stone-50 shadow-lg border-[1px] flex justify-between flex-col rounded-2xl">
+                        <p className="p-2 text-sm text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad numquam perferendis eligendi, consequatur, nisi earum, nihil animi!</p>
+                        <h2 className="p-2 text-center border-t-2"> Name</h2>
+                        <h1 className="p-4 text-center">Title</h1>
+                    </div>
                 </div>
             </div>    
     </div>
