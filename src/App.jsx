@@ -1,4 +1,5 @@
 import Cards from "./components/Cards"
+import Download from "./components/Download"
 import Hero from "./components/Hero"
 import Hero1 from "./components/Hero1"
 import Navbar from "./components/Navbar"
@@ -14,6 +15,7 @@ const App = () => {
       <Payments />
       <Cards />
       <Testimonials1 />
+      <Download />
     </div>
   )
 }

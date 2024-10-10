@@ -36,3 +36,13 @@
   padding-bottom: 0;
   padding-top: 1em;
 }
+
+.wavy {
+  position: relative;
+  padding: 6.9375em 1.5em 0;
+  border-radius: 2.625em;
+  background: #212337 url('../src/assets/waves.png') 50% no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 52px;
+}
