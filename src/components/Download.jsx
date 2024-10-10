@@ -6,11 +6,11 @@ const Download = () => {
         <div className="w-full wavy md:h-[400px] h-[700px] ">
             
         </div>
-        <div className="flex justify-between w-full p-8 pt-6 pb-6 text-xl font-semibold rounded-full shadow-lg md:pl-24 md:pr-24 bg-stone-200 h-fit">
-            <p>FAQs</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Help</p>
+        <div className="flex justify-between w-full p-8 pt-6 pb-6 font-semibold rounded-full shadow-lg md:text-xl md:pl-24 md:pr-24 bg-stone-200 h-fit">
+            <p className="p-4 pt-1 pb-1 rounded-full hover:bg-stone-800 hover:text-stone-50">FAQs</p>
+            <p className="p-4 pt-1 pb-1 rounded-full hover:bg-stone-800 hover:text-stone-50">Privacy</p>
+            <p className="p-4 pt-1 pb-1 rounded-full hover:bg-stone-800 hover:text-stone-50">Terms</p>
+            <p className="p-4 pt-1 pb-1 rounded-full hover:bg-stone-800 hover:text-stone-50">Help</p>
         </div>
     </div>
   )
