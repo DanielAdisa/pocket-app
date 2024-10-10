@@ -20,14 +20,14 @@ const Payments1 = () => {
             <div className="grid w-full md:grid-cols-3 grid-cols-1 gap-4 mb-20 md:grid-rows-3  h-[95%]">
                 <div className="inset-0 overflow-hidden md:col-span-2 h-fit md:col-start-2 rounded-3xl -z-20">
                    {/* FirstImage  */}
-                   <video src={lite} className="object-fit " muted autoPlay loop playsInline poster={vidhold} ></video>
+                   <video src={lite} className="object-fit " muted autoPlay loop playsInline ></video>
                 </div>
 
                 <div className="text-center md:row-start-1 md:row-span-2 md:col-span-1 rounded-3xl">
                         hello There
                 </div>
 
-                <div className="hidden md:block gridimagecenter rounded-3xl">
+                <div className="hidden md:block gridimagecenter rounded-2xl">
                     {/* Middle */}
                 </div>
 
@@ -35,7 +35,7 @@ const Payments1 = () => {
 
                 <div className="inset-0 overflow-hidden h-fit bg-lime-300 md:col-span-2 rounded-3xl -z-20">
                     {/* Second Image */}
-                    <video src={video} className=" object-fit" muted autoPlay loop playsInline poster={vidhold} ></video>
+                    <video src={video} className=" object-fit" muted autoPlay loop playsInline  ></video>
                 </div>
 
             </div>
