@@ -2,7 +2,7 @@ import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
 import phone from "../assets/Onboarding3.png"
 import ashphone from "../assets/ashphone.png"
-// import video from "../assets/com.mp4";
+import vid from "../assets/comp2.mp4";
 import lite from "../assets/comp.mp4";
 import vidhold from "../assets/0100.jpg";
 
@@ -35,7 +35,7 @@ const Payments1 = () => {
 
                 <div className="inset-0 overflow-hidden h-fit bg-lime-300 md:col-span-2 rounded-3xl -z-20">
                     {/* Second Image */}
-                    <video src={lite} className=" object-fit" muted autoPlay loop playsInline  ></video>
+                    <video src={vid} className=" object-fit" muted autoPlay loop playsInline  ></video>
                 </div>
 
             </div>
