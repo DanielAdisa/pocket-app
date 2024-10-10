@@ -6,6 +6,7 @@ import Hero1 from "./components/Hero1"
 import Navbar from "./components/Navbar"
 import Payments from "./components/Payments"
 import Payments1 from "./components/Payments1"
+import Payments2 from "./components/Payments2"
 import Testimonials from "./components/Testimonials"
 import Testimonials1 from "./components/Testimonials1"
 
@@ -14,7 +15,7 @@ const App = () => {
     <div className=" text-stone-900 md:min-w-[940px] md:mx-auto overflow-hidden">
       {/* <Navbar /> */}
       <Hero1 />
-      <Payments1 />
+      <Payments2 />
       <Cards />
       <Testimonials1 />
       <Download />
