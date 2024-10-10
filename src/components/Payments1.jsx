@@ -2,8 +2,9 @@ import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
 import phone from "../assets/Onboarding3.png"
 import ashphone from "../assets/ashphone.png"
-import vid from "../assets/coins.mp4";
-import lite from "../assets/comp.mp4";
+import coins from "../assets/coins.mp4";
+import balls from "../assets/balls.mp4";
+import cake from "../assets/cake.mp4";
 import vidhold from "../assets/0100.jpg";
 
 const Payments1 = () => {
@@ -20,14 +21,14 @@ const Payments1 = () => {
             <div className="grid w-full grid-cols-1 gap-4 mb-20 md:grid-cols-3 md:grid-rows-3 h-fit">
                 <div className="overflow-hidden h-fit md:col-span-2 md:col-start-2 rounded-3xl">
                    {/* FirstImage  */}
-                   <video src={vid} className="object-fit blur-md " muted autoPlay loop playsInline ></video>
+                   <video src={balls} className="object-fit blur-sm " muted autoPlay loop playsInline ></video>
                 </div>
 
                 <div className="text-center md:row-start-1 h-fit md:row-span-2 md:col-span-1 rounded-3xl">
                         hello There
                 </div>
 
-                <div className="hidden md:block gridimagecenter rounded-3xl">
+                <div className=" md:block gridimagecenter rounded-3xl">
                     {/* Middle */}
                 </div>
 
@@ -35,7 +36,7 @@ const Payments1 = () => {
 
                 <div className="overflow-hidden h-fit md:col-span-2 rounded-3xl">
                     {/* Second Image */}
-                    <video src={vid} className=" object-fit blur-md" muted autoPlay loop playsInline  ></video>
+                    <video src={cake} className=" object-fit blur-sm" muted autoPlay loop playsInline  ></video>
                 </div>
 
             </div>

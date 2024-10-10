@@ -1,5 +1,5 @@
 import bg from "../assets/bg.png"
-import phone from "../assets/Onboarding1.png"
+import phone from "../assets/Onboarding3.png"
 import card from "../assets/cardmain.png"
 import card1 from "../assets/card2.png"
 import card2 from "../assets/card3.png"
@@ -47,7 +47,7 @@ const Hero1 = () => {
                  whileInView={{opacity: 1, x:0}}
                  initial={{opacity:0 , x:-40}}
                  transition={{duration:0.5, }} className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Recieve</motion.div>
-                <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Manage</div>
+                <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Save</div>
               </h1>
               <p className="md:text-xl text-base md:leading-none leading-none tracking-normal md:m-0 mx-auto w-[80%] md:w-[80%] text-center md:text-start    mb-10">
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receivi8 and managing your money a breeze.
