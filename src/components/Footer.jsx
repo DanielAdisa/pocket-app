@@ -18,7 +18,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="flex flex-col gap-4">
-                <div className="flex gap-4 text-2xl md:text-right">
+                <div className="flex gap-10 text-2xl md:gap-4 md:text-right">
                 <TiSocialInstagram />
                 <FaSquareXTwitter />
                 <MdAttachEmail />
