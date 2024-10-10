@@ -1,4 +1,4 @@
-import woman from "../assets/downloadimage.png"
+
 
 const Download = () => {
   return (
