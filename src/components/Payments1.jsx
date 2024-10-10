@@ -2,8 +2,8 @@ import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
 import phone from "../assets/Onboarding3.png"
 import ashphone from "../assets/ashphone.png"
-import video from "../assets/comp3.mp4";
-import lite from "../assets/comp 2.mp4";
+import video from "../assets/com.mp4";
+import lite from "../assets/comp.mp4";
 import vidhold from "../assets/0100.jpg";
 
 const Payments1 = () => {
