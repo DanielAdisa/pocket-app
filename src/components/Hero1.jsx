@@ -8,13 +8,15 @@ import { FaGooglePlay } from "react-icons/fa6";
 import { FaAppStoreIos } from "react-icons/fa";
 import { SiAppstore } from "react-icons/si";
 import { GiPayMoney } from "react-icons/gi";
+import { FaApple } from "react-icons/fa";
+import { motion } from "framer-motion"
 
 
 
 
 const Hero1 = () => {
   return (
-    <div className="pb-12 hero md:h-fit h-fit w-dvw text-stone-100">
+    <div className="pb-16 hero md:h-fit h-fit w-dvw text-stone-100">
       <nav className="py-4 mx-auto shadow-md md:shadow-none md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">
@@ -36,8 +38,15 @@ const Hero1 = () => {
 
             <div className="w-full md:w-1/2">
             <h1 className=" mb-[50px] leading-none md:leading-none">
-                <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Send</div>
-                <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Recieve</div>
+                <motion.div 
+                 whileInView={{opacity: 1, x:0}}
+                 initial={{opacity:0 , x:-80}}
+                 transition={{duration:1, }}
+                className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Send</motion.div>
+                <motion.div 
+                 whileInView={{opacity: 1, x:0}}
+                 initial={{opacity:0 , x:-40}}
+                 transition={{duration:0.5, }} className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Recieve</motion.div>
                 <div className="text-center text-[60px] md:text-center md:w-[60%] box-border md:text-[90px] font-bold">&</div>
                 <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Manage</div>
                 <div className="text-center text-[60px] md:text-start w-[100%] box-border md:text-[90px] font-bold">Money</div>
@@ -46,7 +55,7 @@ const Hero1 = () => {
                   …with super fast transfers, debit cards, group accounts, and shopping, PocketApp makes sending, receivi8 and managing your money a breeze.
               </p>
 
-              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight animate-pulse delay-700  transition-all ease-in-out mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><SiAppstore className="" /></span>App Store</p>
+              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight animate-pulse delay-700  transition-all ease-in-out mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaApple className="" /></span>App Store</p>
               <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>

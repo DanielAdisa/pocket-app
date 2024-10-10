@@ -1,6 +1,7 @@
 import { TESTIMONIALS } from "../constants/index";
 import { FaUserCircle } from "react-icons/fa";
 
+
 const Testimonials1 = () => {
   return (
     <div className="p-4 mx-auto mb-48 overflow-x-clip md:pl-11 md:pr-11 md:mx-auto">
