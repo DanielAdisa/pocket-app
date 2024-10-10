@@ -46,3 +46,22 @@
   color: #fff;
   margin-bottom: 52px;
 }
+
+.gridimage {
+  background-image:  url('../src/assets/cardsprwal.png') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.gridimage2 {
+  background-image:  url('../src/assets/0100.jpg') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.gridimagecenter {
+  background-image:  url('../src/assets/phone.png') ;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

@@ -5,7 +5,7 @@ import ashphone from "../assets/ashphone.png"
 
 const Payments = () => {
   return (
-    <section className="pt-[10px] md:pl-11 md:pr-11 md:max-w-[1034px] mx-auto md:mx-auto md:mb-6">
+    <section className="pt-[8rem] md:pl-11 md:pr-11 md:max-w-[1034px] mx-auto md:mx-auto md:mb-6">
         <div className=" max-w-[80em] box-border w-full p-4 md:p-0 ">
           <div className="">
               <h2 className=" font-bold text-[3rem] md:text-[4.5rem] text-[#212337] mb-[1px] leading-[1.25em]">
