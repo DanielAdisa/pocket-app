@@ -2,7 +2,7 @@ import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
 import phone from "../assets/Onboarding3.png"
 import ashphone from "../assets/ashphone.png"
-import vid from "../assets/comp2.mp4";
+import vid from "../assets/coins.mp4";
 import lite from "../assets/comp.mp4";
 import vidhold from "../assets/0100.jpg";
 
