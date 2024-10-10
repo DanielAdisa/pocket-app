@@ -31,7 +31,7 @@ const Payments1 = () => {
                     {/* Middle */}
                 </div>
 
-                <div className="hidden bg-red-400 md:block md:row-span-2 rounded-3xl">Word 2</div>
+                <div className="hidden bg-red-50 md:block md:row-span-2 rounded-3xl">Word 2</div>
 
                 <div className="inset-0 overflow-hidden h-fit bg-lime-300 md:col-span-2 rounded-3xl -z-20">
                     {/* Second Image */}
