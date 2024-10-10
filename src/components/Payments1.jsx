@@ -17,13 +17,13 @@ const Payments1 = () => {
                     All your transactions in one place
                 </p>
             </div>
-            <div className="grid w-full md:grid-cols-6 grid-cols-1 gap-4 mb-20 md:grid-rows-3  h-[1034px]">
-                <div className="inset-0 overflow-hidden bg-stone-400 md:col-span-2 md:col-start-2 rounded-3xl">
+            <div className="grid w-full grid-cols-1 gap-4 mb-20 md:grid-cols-3 md:grid-rows-3 h-fit">
+                <div className="overflow-hidden h-fit md:col-span-2 md:col-start-2 rounded-3xl">
                    {/* FirstImage  */}
-                   {/* <video src={lite} className="object-fit " muted autoPlay loop playsInline ></video> */}
+                   <video src={vid} className="object-fit blur-md " muted autoPlay loop playsInline ></video>
                 </div>
 
-                <div className="text-center md:row-start-1 md:row-span-2 md:col-span-1 rounded-3xl">
+                <div className="text-center md:row-start-1 h-fit md:row-span-2 md:col-span-1 rounded-3xl">
                         hello There
                 </div>
 
@@ -33,9 +33,9 @@ const Payments1 = () => {
 
                 <div className="hidden bg-red-50 md:block md:row-span-2 rounded-3xl">Word 2</div>
 
-                <div className="overflow-hidden bg-lime-300 md:col-span-2 rounded-3xl">
+                <div className="overflow-hidden h-fit md:col-span-2 rounded-3xl">
                     {/* Second Image */}
-                    {/* <video src={vid} className=" object-fit" muted autoPlay loop playsInline  ></video> */}
+                    <video src={vid} className=" object-fit blur-md" muted autoPlay loop playsInline  ></video>
                 </div>
 
             </div>
