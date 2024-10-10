@@ -27,7 +27,7 @@ const Payments1 = () => {
                         hello There
                 </div>
 
-                <div className="hidden md:block gridimagecenter rounded-2xl">
+                <div className="hidden md:block gridimagecenter rounded-3xl">
                     {/* Middle */}
                 </div>
 
