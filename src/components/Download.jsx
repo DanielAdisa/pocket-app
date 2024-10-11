@@ -2,8 +2,8 @@
 
 const Download = () => {
   return (
-    <div className=" md:pl-11 md:pr-11 md:max-w-[1034px] mx-auto md:mx-auto md:mb-6 pb-10 p-4">
-        <div className="w-full wavy md:h-[400px] h-[700px] ">
+    <div className=" md:pl-11 md:pr-11 md:w-screen md:max-w-[80vw]  mx-auto md:mx-auto md:mb-6 pb-10 ">
+        <div className="w-full wavy md:h-screen md:max-h-[60vh] h-[700px] mx-auto md:w-full md:max-w-[80vw] mb-10 ">
             
         </div>
         <div className="flex justify-between w-full p-8 pt-6 pb-6 font-semibold rounded-full shadow-lg md:text-xl md:pl-24 md:pr-24 bg-stone-200 h-fit">

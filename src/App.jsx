@@ -13,7 +13,7 @@ import Testimonials1 from "./components/Testimonials1"
 
 const App = () => {
   return (
-    <div className=" text-stone-900 md:min-w-[940px] md:mx-auto overflow-hidden">
+    <div className="overflow-hidden text-stone-900 md:mx-auto">
       {/* <Navbar /> */}
       <Hero1 />
       <Payments2 />

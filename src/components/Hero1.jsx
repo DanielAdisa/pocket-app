@@ -16,7 +16,7 @@ import { motion } from "framer-motion"
 
 const Hero1 = () => {
   return (
-    <div className="pb-16 hero md:h-fit h-fit w-dvw text-stone-100">
+    <div className="pb-16 hero md:h-screen h-fit w-dvw text-stone-100">
       <nav className="py-4 mx-auto shadow-md md:shadow-none md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">

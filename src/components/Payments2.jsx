@@ -21,9 +21,11 @@ const Payments2 = () => {
                     All your transactions in one place
                 </p>
         </div>
-        <div className="grid md:w-[900px] rounded-2xl grid-cols-1 gap-1 md:grid-cols-6 md:grid-rows-4 h-fit md:h-[610px]">
+        <div className="grid md:w-[900px] rounded-2xl grid-cols-1 gap-1 md:grid-cols-6 md:grid-rows-4 h-screen md:h-screen">
 
-            <div className="md:h-[150px] flex p-4 items-center row-start-1 text-stone-100 text-2xl  rounded-2xl w-full col-span-1 md:col-start-1 bg-[#2f85b8] ">
+          <div className="relative flex-col justify-end w-full p-4 md:flex hidden row-span-2 overflow-hidden bg-black md:col-span-6 md:h-full h-[108px] rounded-2xl isolate"></div>
+
+            <div className="md:hidden md:h-[150px] flex p-4 items-center row-start-1 shadow-inner hover:shadow-inner-[0px]  text-stone-100 text-2xl  rounded-2xl w-full col-span-1 md:col-start-1 bg-[#2f85b8] ">
               <div className="flex-col">
                 <MdSendToMobile className="md:text-5xl " />
                 <p className="mt-5 font-medium">Send</p>
@@ -31,7 +33,7 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="col-span-1 flex items-center text-2xl text-[#2f85b8] row-start-2 p-4 rounded-2xl w-full md:h-[150px] md:col-start-2 md:row-start-1 bg-stone-100 ">
+            <div className="md:hidden col-span-1 flex items-center text-2xl text-[#2f85b8] row-start-2 p-4 rounded-2xl w-full md:h-[150px] md:col-start-2 md:row-start-1 bg-stone-100 ">
               <div className="flex-col">
                 <GiReceiveMoney className="md:text-5xl " />
                 <p className="mt-5 font-medium">Receive</p>
@@ -39,7 +41,7 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="col-span-1 flex items-center text-2xl text-[#2f85b8] p-4 rounded-2xl w-full md:h-[150px] md:col-start-1 bg-stone-100">
+            <div className="md:hidden col-span-1 flex items-center text-2xl text-[#2f85b8] p-4 rounded-2xl w-full md:h-[150px] md:col-start-1 bg-stone-100">
               <div className="flex-col">
                 <GiPiggyBank className="md:text-5xl " />
                 <p className="mt-5 font-medium">Save</p>
@@ -47,7 +49,7 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="md:col-span-1 md:row-start-2 rounded-2xl w-full md:h-[150px] row-start-4 md:col-start-2 bg-[#2f85b8] row-span-1 flex p-4 items-center text-stone-100 text-2xl ">
+            <div className="md:hidden md:col-span-1 md:row-start-2 rounded-2xl w-full md:h-[150px] row-start-4 md:col-start-2 bg-[#2f85b8] row-span-1 flex p-4 items-center text-stone-100 text-2xl ">
               <div className="flex-col">
                 <SiAwssecretsmanager className="md:text-5xl " />
                 <p className="mt-5 font-medium">Secure</p>
@@ -55,7 +57,7 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="relative flex flex-col justify-end w-full h-[108px] md:h-full row-start-3 col-span-1 p-4 overflow-hidden md:row-span-2 md:col-start-1 md:col-span-2 rounded-2xl isolate">
+            <div className="relative flex flex-col justify-end w-full col-span-1 row-start-3 p-4 overflow-hidden md:h-full md:row-start-3 md:row-span-2 md:col-start-1 md:col-span-2 rounded-2xl isolate">
               <img src={phone} alt="" class="absolute blur-sm  inset-0 h-full w-full object-cover"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black  "></div>
               <h3 class="z-10 mt-3 md:text-3xl font-bold text-white">Transact</h3>
@@ -63,19 +65,19 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="relative flex-col hidden md:flex row-start-6 justify-end mb w-full h-[108px] md:h-full row-span-1  p-4 overflow-hidden md:col-start-3 md:row-end-3 md:row-start-1 md:col-span-2 rounded-2xl">
+            <div className="relative flex-col justify-end hidden w-full row-span-1 row-start-6 p-4 overflow-hidden md:hidden mb md:h-full md:col-start-3 md:row-end-3 md:row-start-1 md:col-span-2 rounded-2xl">
               <img src={phone2} alt="" class="absolute  blur-sm inset-0 h-full w-full object-contain"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black  "></div>
               <h3 class="z-10 mt-3 md:text-3xl  font-bold text-[#2f85b8]/70">All in one place...</h3>
             </div>
 
-            <div className="relative hidden md:flex flex-col justify-end w-full p-4 overflow-hidden h-[108px] md:h-full row-span-1 md:col-span-2 md:col-start-5 md:row-start-1 md:row-end-3 rounded-2xl">
+            <div className="md:hidden relative hidden flex-col justify-end w-full p-4 overflow-hidden h-[108px] md:h-full row-span-1 md:col-span-2 md:col-start-5 md:row-start-1 md:row-end-3 rounded-2xl">
               <img src={onb} alt="" class="absolute blur-sm md:blur-0  inset-0 h-full w-full object-contain"/>
               <div class="absolute inset-0 md:hidden bg-gradient-to-t from-black "></div>
               <h3 class="z-10 mt-3 md:text-3xl md:hidden font-bold text-[#2f85b8]/70">Seamless transactions</h3>
             </div>
 
-            <div className="relative flex flex-col justify-end w-full p-4 overflow-hidden h-[108px] md:h-full md:row-start-3 md:row-span-2 md:col-start-3 md:col-span-4 rounded-2xl isolate ">
+            <div className="relative flex flex-col justify-end w-full p-4 overflow-hidden md:h-full md:row-start-3 md:row-span-2 md:col-start-3 md:col-span-4 rounded-2xl isolate ">
               <img src={upwards} alt="" class="absolute inset-0 h-full blur-sm w-full object-center object-cover"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black "></div>
               <h3 class="z-10 mt-3 md:text-3xl font-bold text-white">Grow</h3>

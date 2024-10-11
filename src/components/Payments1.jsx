@@ -1,6 +1,6 @@
 import light from "../assets/light.png"
 import greenstuff from "../assets/green.svg"
-import phone from "../assets/Onboarding3.png"
+import phone from "../assets/Onboarding1.png"
 import ashphone from "../assets/ashphone.png"
 import coins from "../assets/coins.mp4";
 import balls from "../assets/balls.mp4";
