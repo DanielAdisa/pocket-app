@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar"
 import Payments from "./components/Payments"
 import Payments1 from "./components/Payments1"
 import Payments2 from "./components/Payments2"
+import Services from "./components/Services"
 import Testimonials from "./components/Testimonials"
 import Testimonials1 from "./components/Testimonials1"
 
@@ -16,7 +17,7 @@ const App = () => {
       {/* <Navbar /> */}
       <Hero1 />
       <Payments2 />
-      <Cards />
+      <Services />
       <Testimonials1 />
       <Download />
       <Footer />
