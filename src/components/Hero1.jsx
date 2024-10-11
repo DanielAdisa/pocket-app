@@ -16,7 +16,7 @@ import { motion } from "framer-motion"
 
 const Hero1 = () => {
   return (
-    <div className="pb-16 hero md:h-screen h-fit w-dvw text-stone-100">
+    <div className="h-screen pb-16 hero md:h-screen md:w-screen w-dvw text-stone-100">
       <nav className="py-4 mx-auto shadow-md md:shadow-none md:px-8">
         <div className="flex items-center justify-between">
         <div className="flex ml-4">
@@ -29,10 +29,10 @@ const Hero1 = () => {
         
         </div>
     </nav>
-        <div className="flex flex-wrap-reverse items-center lg:flex-row-reverse md:max-w-[940px] pt-6 md:pt-20 md:mx-auto">
+        <div className="flex flex-wrap-reverse md:flex-wrap items-center lg:flex-row-reverse md:max-w-[940px] pt-6 md:pt-20 md:mx-auto">
             <div className="w-full md:w-1/2 ">
                 <div className="flex justify-center lg:p-8 ">
-                    <img src={phone} alt="Daniel Adisa" className=" delay-1000 duration-700 ease-in-out animate-loop-bounce transition-all w-[350px] md:w-[2000px]" width={1000} height={1000} />
+                    <img src={phone} alt="Daniel Adisa" className=" delay-1000 duration-700 ease-in-out animate-loop-bounce transition-all w-[50%] md:w-[100%]" width={1000} height={1000} />
                 </div>
             </div>
 
@@ -54,9 +54,10 @@ const Hero1 = () => {
               </p>
 
               <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight animate-pulse delay-700  transition-all ease-in-out mx-auto w-fit pb-2 pl-4 mb-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaApple className="" /></span>App Store</p>
-              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 pl-4 mb-16 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
+              <p className="pt-2 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 md:hidden font-semibold tracking-tight mx-auto w-fit pb-2 mb-[5%] pl-4 pr-4 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
 
             </div>
+            
         </div>
     </div>
   )
