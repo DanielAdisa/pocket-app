@@ -21,7 +21,7 @@ const Payments2 = () => {
                     All your transactions in one place
                 </p>
         </div>
-        <div className="grid md:w-[900px] rounded-2xl grid-cols-1 gap-1 mb-20 md:grid-cols-6 md:grid-rows-4 h-fit md:h-[610px]">
+        <div className="grid md:w-[900px] rounded-2xl grid-cols-1 gap-1 md:grid-cols-6 md:grid-rows-4 h-fit md:h-[610px]">
 
             <div className="md:h-[150px] flex p-4 items-center text-stone-100 text-2xl  rounded-2xl w-full col-span-1 md:col-start-1 bg-[#2f85b8] ">
               <div className="flex-col">
@@ -63,10 +63,10 @@ const Payments2 = () => {
             </div>
 
 
-            <div className="relative flex flex-col justify-end w-full h-[108px] md:h-full  p-4 overflow-hidden md:col-start-3 md:row-end-3 md:row-start-1 md:col-span-2 rounded-2xl">
+            <div className="relative flex flex-col justify-end mb w-full h-[108px] md:h-full row-start-1  p-4 overflow-hidden md:col-start-3 md:row-end-3 md:row-start-1 md:col-span-2 rounded-2xl">
               <img src={phone2} alt="" class="absolute  blur-sm inset-0 h-full w-full object-contain"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black  "></div>
-              <h3 class="z-10 mt-3 md:text-3xl  font-bold text-[#2f85b8]/70">All your transactions in one place...</h3>
+              <h3 class="z-10 mt-3 md:text-3xl  font-bold text-[#2f85b8]/70">All in one place...</h3>
             </div>
 
             <div className="relative flex flex-col justify-end w-full p-4 overflow-hidden h-[108px] md:h-full md:col-span-2 md:col-start-5 md:row-start-1 md:row-end-3 rounded-2xl">
