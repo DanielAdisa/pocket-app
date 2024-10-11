@@ -1,6 +1,10 @@
 import { RiMobileDownloadFill } from "react-icons/ri";
 import { RiMobileDownloadLine } from "react-icons/ri";
 import { FaBarcode } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa6";
+import { FaApple } from "react-icons/fa";
+
+
 
 
 
@@ -13,6 +17,10 @@ const Download = () => {
                     <RiMobileDownloadLine  className="mx-auto mt-[25%] mb-4 text-6xl md:mt-[30%] md:text-8xl "/>
                     <p className="text-3xl md:text-[2.75em] mt-10  text-white">Download LitePay App</p>
                     <p className="text-xl md:text-[1.7em] mt-6  text-white">Over 2 million people trust LitePay for their daily money moves, download LitePay today to get started.</p>
+                    <div className="md:flex mt-[3.5%]">
+                        <p className="pt-4 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 font-semibold tracking-tight mx-auto w-fit pb-4 pl-8 mb-[5%] pr-8 text-[#034b93] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
+                        <p className="pt-4 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 font-semibold tracking-tight mx-auto w-fit pb-4 pl-8 mb-[5%] pr-8 text-[#034b93] rounded-full bg-stone-50"><span><FaApple className="" /></span>App Store</p>
+                    </div>
                 </div>
                 <div className="w-full h-full rounded-3xl md:col-span-3 md:row-span-4">
                   <div className="flex-col items-center justify-center w-full h-full ">

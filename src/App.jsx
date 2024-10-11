@@ -18,7 +18,7 @@ const App = () => {
       <Hero1 />
       <Payments2 />
       <Services />
-      <Testimonials1 />
+      {/* <Testimonials1 /> */}
       <Download />
       <Footer />
     </div>

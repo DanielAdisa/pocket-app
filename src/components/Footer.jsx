@@ -6,7 +6,7 @@ import { MdAttachEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className=" md:pl-11 md:pr-11 md:max-w-[1034px] mx-auto md:mx-auto md:mb-6 pb-10 p-4">
+    <div className=" md:pl-11 md:pr-11 md:max-w-[1034px] md:mt-[3%] mt-[5%] mx-auto md:mx-auto md:mb-6 pb-10 p-4">
         <div className="flex flex-col items-center justify-center gap-12 p-5 pt-0 pb-0 md:flex-row md:justify-between">
             <div className="text-5xl "><GiPayMoney/></div>
             <div className="flex flex-col gap-4 ">
