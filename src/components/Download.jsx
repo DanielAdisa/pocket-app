@@ -17,10 +17,10 @@ const Download = () => {
                 <div className="flex-col content-center w-full h-full mt-auto mb-auto ml-auto mr-auto space-y-4 text-center md:w-auto md:h-auto md:space-y-7 rounded-3xl md:col-span-2 md:row-span-2">
                     {/* <RiMobileDownloadLine  className="mx-auto text-6xl md:text-6xl "/> */}
                     <p className="text-3xl font-bold text-white md:text-4xl">Download LitePay App</p>
-                    <p className="text-xl md:text-xl text-stone-400 xs:font-semibold md:max-w-[85%]  mx-auto">Over 2 million people trust LitePay for their daily money moves, download LitePay today to get started.</p>
+                    <p className="text-xl md:text-xl tracking-wide text-stone-400 xs:font-semibold md:max-w-[85%]  mx-auto">Over 2 million people trust LitePay for their daily money moves, download LitePay today to get started.</p>
                     <div className="items-center justify-center gap-8 mx-auto md:w-[75%] md:flex">
-                        <p className="md:pt-[4%] md:mt-0 mt-[4%] md:pb-[4%] text-center pl-[4%] pr-[4%] w-1/2 pt-[4%] pb-[4%] flex items-center justify-center  gap-2 font-semibold tracking-tight mx-auto  text-stone-950 md:mb-[4%] rounded-full bg-stone-50"><span><FaGooglePlay className="" /></span>Google Play</p>
-                        <p className="md:pt-[4%] md:mt-0 mt-[4%] md:pb-[4%] text-center pl-[4%] pr-[4%]  w-1/2 pt-[4%] pb-[4%] flex items-center justify-center   gap-2 font-semibold tracking-tight mx-auto text-stone-950 md:mb-[4%] rounded-full bg-stone-50"><span><FaApple className="" /></span>Apple Store</p>
+                        <p className="md:pt-[4%] md:mt-0 mt-[4%] md:pb-[4%] text-center pl-[4%] pr-[4%] w-1/2 pt-[4%] pb-[4%] flex items-center justify-center  gap-4 font-semibold tracking-tight mx-auto  text-stone-950 md:mb-[4%] rounded-full bg-stone-50"><span><FaGooglePlay className="text-3xl" /></span>Google Play</p>
+                        <p className="md:pt-[4%] md:mt-0 mt-[4%] md:pb-[4%] text-center pl-[4%] pr-[4%]  w-1/2 pt-[4%] pb-[4%] flex items-center justify-center   gap-4 font-semibold tracking-tight mx-auto text-stone-950 md:mb-[4%] rounded-full bg-stone-50"><span><FaApple className="text-3xl" /></span>Apple Store</p>
                         {/* <p className="pt-4 text-center flex items-center  border-blue-500 border-spacing-96 border-2 gap-2 font-semibold tracking-tight mx-auto w-fit pb-4 pl-8  pr-8 text-[#034b93] rounded-full bg-stone-50"><span><FaApple className="" /></span>Apple Store</p> */}
                     </div>
                 </div>

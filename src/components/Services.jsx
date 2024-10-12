@@ -1,7 +1,7 @@
 import phone2 from "../assets/bg2.png"
 const Services = () => {
   return (
-    <section className=" pt-[90px] md:pt-[125px] md:pl-11 md:pr-11  md:max-w-[1034px] mx-auto md:mx-auto p-4">
+    <section className=" md:pt-[125px] pt-[90px] md:pl-11 md:pr-11 mb-0 md:max-w-[80vw] h-[fit] mx-auto md:mx-auto p-4 ">
         <div className="">
                 <h2 className=" font-bold text-[3rem] md:text-[4.5rem] tracking-tighter text-[#285183] mb-[20px] leading-[1.25em]">
                     Services
@@ -11,7 +11,7 @@ const Services = () => {
                 </p>
         </div>
 
-        <div className="grid md:w-fit md:gap-1.5 rounded-2xl text-stone-50 grid-cols-1 gap-1 mb-20 md:grid-cols-6 md:grid-rows-4 h-screen md:h-screen">
+        <div className=" md:gap-1.5 rounded-2xl text-stone-50 grid-cols-1 gap-1 mb-20 md:grid-cols-6 md:grid-rows-4 h-screen  grid md:w-[75vw] md:h-screen">
             <div className="flex items-center justify-center w-full h-full col-span-1 row-start-1 bg-black md:col-span-2 rounded-xl md:h-full">
                 <h1 className="text-2xl md:text-5xl ">01</h1>
             </div>
