@@ -55,7 +55,7 @@ const Hero2 = () => {
         </div>
         <div className="w-full col-span-1 row-span-1 mt-[2%] h-fit overflow-clip">
         <div className="flex gap-6">
-        <div className="flex gap-6 animate-loop-scroll ">
+        <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
             {TESTIMONIALS.map((t, index) => (
                <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] overflow-clip flex flex-col rounded-2xl">
                <div className="flex flex-row items-center w-full gap-3 mb-4">
