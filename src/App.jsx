@@ -3,7 +3,8 @@ import Download from "./components/Download"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Hero1 from "./components/Hero1"
-import Navbar from "./components/Navbar"
+import Hero2 from "./components/Hero2"
+import Nav from "./components/Nav"
 import Payments from "./components/Payments"
 import Payments1 from "./components/Payments1"
 import Payments2 from "./components/Payments2"
@@ -14,10 +15,10 @@ import Testimonials1 from "./components/Testimonials1"
 const App = () => {
   return (
     <div className="overflow-hidden text-stone-900 md:mx-auto">
-      {/* <Navbar /> */}
-      <Hero1 />
+      <Nav />
+      <Hero2 />
       <Payments2 />
-      <Services />
+      {/* <Services /> */}
       {/* <Testimonials1 /> */}
       <Download />
       <Footer />
