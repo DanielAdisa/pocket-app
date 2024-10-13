@@ -20,7 +20,7 @@ const Hero2 = () => {
   return (
     <section className="p-[1.5%] pr-0 pl-0 pb-0 h-screen mx-auto  text-black md:w-7xl md:max-w-7xl pt-[6%] rounded-3xl">
      <div className="grid w-full h-full grid-cols-1 mt-[0.5%] grid-rows-4">
-        <div className="col-span-1 mt-1 mt wavy row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
+        <div className="col-span-1 mt-1 mt wavy rounded-t-[0px] row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
             <div className="w-[50%] h-full flex-1 content-center ">
                 <motion.h1 
                 whileInView={{opacity: 1,x:0}}
@@ -53,36 +53,40 @@ const Hero2 = () => {
                 src={phone} className=" overflow-hidden h-[85%]" alt="" />
             </div>
         </div>
-        <div className="w-full col-span-1 row-span-1 mt-[2%] h-fit overflow-clip">
+        <div className="w-full col-span-1 row-span-1 mt-[3.5%] h-fit overflow-hidden">
         <div className="flex gap-6">
-        <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
+        <div className="flex gap-6 animate-loop-scroll ">
             {TESTIMONIALS.map((t, index) => (
-               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] overflow-clip flex flex-col rounded-2xl">
-               <div className="flex flex-row items-center w-full gap-3 mb-4">
+               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] overflow-clip flex rounded-2xl">
+               <div className="flex items-center w-full">
+               <div className="w-[20%]">
                {t.image}
-               <div className="flex flex-col text-[0.7rem]">
+               </div>
+               <div className="flex content-center flex-col gap-y-2 text-[0.7rem]">
                    <h1 className="-mb-1 font-semibold ">{t.name}</h1>
                    <h1>{t.handle}</h1>
-               </div>
-               </div>
-               <p className="mb-6 p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
                    {t.testimonialz}
+               </div>
+               </div>
+               <p className=" p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
                </p>
            </div>
             ))}
         </div>
         <div className="flex gap-6 animate-loop-scroll ">
             {TESTIMONIALS.map((t, index) => (
-               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] flex flex-col rounded-2xl">
-               <div className="flex flex-row items-center w-full gap-3 mb-4">
+               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] flex rounded-2xl">
+               <div className="flex items-center w-full">
+                <div className="w-[20%]">
                {t.image}
-               <div className="flex flex-col text-[0.7rem]">
+               </div>
+               <div className="flex content-center flex-col gap-y-2 text-[0.7rem]">
                    <h1 className="-mb-1 font-semibold ">{t.name}</h1>
                    <h1>{t.handle}</h1>
-               </div>
-               </div>
-               <p className="mb-6 p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
                    {t.testimonialz}
+               </div>
+               </div>
+               <p className=" p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
                </p>
            </div>
             ))}
