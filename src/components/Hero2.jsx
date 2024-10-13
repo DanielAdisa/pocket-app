@@ -20,11 +20,27 @@ const Hero2 = () => {
      <div className="grid w-full h-full grid-cols-1 mt-[0.5%] grid-rows-4">
         <div className="col-span-1 mt-1 mt wavy row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
             <div className="w-[50%] h-full flex-1 content-center ">
-                <h1 className="text-[2.5rem] w-[90%] pt-[2%] text-white/90 font-semibold ">One multi-currency app for all your money needs.</h1>
-                <p className=" tracking-wide mt-[10%] bg-white/15 rounded-full w-fit p-[2%] pt-[0.5%] pb-[0.5%] text-[0.85rem] border-white/30 border-[2px]">Available On</p>
+                <motion.h1 
+                whileInView={{opacity: 1,x:0}}
+                initial={{opacity:0 , x:-300}}
+                transition={{duration:1.5, }}
+                className="text-[2.5rem] w-[90%] pt-[2%] text-white/90 font-semibold ">One multi-currency app for all your money needs.</motion.h1>
+                <motion.p 
+                 whileInView={{opacity: 1}}
+                 initial={{opacity:0}}
+                 transition={{duration:1, }}
+                className=" tracking-wide mt-[10%] bg-white/15 rounded-full w-fit p-[2%] pt-[0.5%] pb-[0.5%] text-[0.85rem] border-white/30 border-[2px] animate-pulse ease-in-out transition-all duration-700 delay-1000">Available On</motion.p>
                 <div className="flex w-full gap-4 ">
-                    <p className=" tracking-wide mt-[5%] bg-white/15 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%]  border-white/30 border-[2px]">Playstore</p>
-                    <p className=" tracking-wide mt-[5%] bg-white/15 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%]  border-white/30 border-[2px]">App Store</p>
+                    <motion.p 
+                    whileInView={{opacity: 1,y:0}}
+                    initial={{opacity:0 , y:100}}
+                    transition={{duration:1, }}
+                    className=" flex items-center tracking-wide mt-[5%] bg-white/15 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] gap-3  border-white/30 border-[2px]"><FaGooglePlay className="text-lg "/>Playstore</motion.p>
+                    <motion.p 
+                    whileInView={{opacity: 1,y:0}}
+                    initial={{opacity:0 , y:100}}
+                    transition={{duration:1, }}
+                    className=" flex items-center tracking-wide mt-[5%] bg-white/15 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] gap-3 border-white/30 border-[2px]"><FaApple className="text-xl "/>App Store</motion.p>
                 </div>
             </div>
             <div className="w-[50%] h-full flex items-end justify-end overflow-hidden">
@@ -56,3 +72,4 @@ const Hero2 = () => {
   )
 }
 export default Hero2
+
