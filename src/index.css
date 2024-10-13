@@ -63,3 +63,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.wavy2 {
+  position: relative;
+  background: #212337 url('../src/assets/bg3.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}

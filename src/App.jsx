@@ -17,9 +17,9 @@ const App = () => {
     <div className="overflow-hidden text-stone-900 md:mx-auto">
       <Nav />
       <Hero2 />
+      {/* <Testimonials1 /> */}
       <Payments2 />
       {/* <Services /> */}
-      {/* <Testimonials1 /> */}
       <Download />
       <Footer />
     </div>

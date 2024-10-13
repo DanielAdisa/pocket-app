@@ -12,6 +12,8 @@ import { SiAppstore } from "react-icons/si";
 import { GiPayMoney } from "react-icons/gi";
 import { FaApple } from "react-icons/fa";
 import { motion } from "framer-motion"
+import { TESTIMONIALS } from "../constants/index";
+import { FaUserCircle } from "react-icons/fa";
 
 
 const Hero2 = () => {
@@ -51,23 +53,43 @@ const Hero2 = () => {
                 src={phone} className=" overflow-hidden h-[85%]" alt="" />
             </div>
         </div>
-        <div className="flex-col content-center w-full h-full col-span-1 row-span-1 gap-10 overflow-hidden">
-            <p className="w-full text-center mb-[3%]">As Featured in</p>
-            <div className="flex items-center justify-between w-full pl-[1%]  pt-0 pb-0 pr-[1%] mx-auto">
-            <div className="border-2 border-[#098bb8]/50 w-[10%]"/>
-            <img src={card1} className=" w-[10%] " alt="" />
-            <img src={cnn} className=" w-[12%] " alt="" />
-            <img src={bloom} className=" w-[15%] " alt="" />
-            <div className="border-2 border-[#098bb8]/50 w-[10%]"/>
-           
-            {/* <p className=" tracking-wide bg-[#034b93]/25 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] text-[0.85rem] ">GoTV</p>
-            <p className=" tracking-wide bg-[#034b93]/25  rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] text-[0.85rem] ">The Gazette</p>
-            <p className=" tracking-wide bg-[#034b93]/25 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] text-[0.85rem] ">The Ghanaian Chronicle</p>
-            <p className=" tracking-wide bg-[#034b93]/25 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] text-[0.85rem] ">The Ghanaian</p>
-            <p className=" tracking-wide bg-[#034b93]/25 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] text-[0.85rem] ">TvGO</p> */}
+        <div className="w-full col-span-1 row-span-1 mt-[2%] h-fit overflow-clip">
+        <div className="flex gap-6">
+        <div className="flex gap-6 animate-loop-scroll ">
+            {TESTIMONIALS.map((t, index) => (
+               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] overflow-clip flex flex-col rounded-2xl">
+               <div className="flex flex-row items-center w-full gap-3 mb-4">
+               {t.image}
+               <div className="flex flex-col text-[0.7rem]">
+                   <h1 className="-mb-1 font-semibold ">{t.name}</h1>
+                   <h1>{t.handle}</h1>
+               </div>
+               </div>
+               <p className="mb-6 p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
+                   {t.testimonialz}
+               </p>
+           </div>
+            ))}
+        </div>
+        <div className="flex gap-6 animate-loop-scroll ">
+            {TESTIMONIALS.map((t, index) => (
+               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] flex flex-col rounded-2xl">
+               <div className="flex flex-row items-center w-full gap-3 mb-4">
+               {t.image}
+               <div className="flex flex-col text-[0.7rem]">
+                   <h1 className="-mb-1 font-semibold ">{t.name}</h1>
+                   <h1>{t.handle}</h1>
+               </div>
+               </div>
+               <p className="mb-6 p-2 text-[0.8rem] leading-none font-medium text-white/70 tracking-wide text-left ">
+                   {t.testimonialz}
+               </p>
+           </div>
+            ))}
+        </div>
+        </div>
             </div>
         </div>
-     </div>
     </section>
   )
 }
