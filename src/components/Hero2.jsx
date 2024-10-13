@@ -20,7 +20,7 @@ const Hero2 = () => {
   return (
     <section className="p-[1.5%] pr-0 pl-0 pb-0 h-screen mx-auto  text-black md:w-7xl md:max-w-7xl pt-[6%] rounded-3xl">
      <div className="grid w-full h-full grid-cols-1 mt-[0.5%] grid-rows-4">
-        <div className="col-span-1 mt-1 mt wavy rounded-t-[0px] row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
+        <div className="col-span-1 mt-1 mt wavy rounded-t-none row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
             <div className="w-[50%] h-full flex-1 content-center ">
                 <motion.h1 
                 whileInView={{opacity: 1,x:0}}
@@ -53,11 +53,11 @@ const Hero2 = () => {
                 src={phone} className=" overflow-hidden h-[85%]" alt="" />
             </div>
         </div>
-        <div className="w-full col-span-1 row-span-1 mt-[3.5%] h-fit overflow-hidden">
+        <div className="w-full col-span-1 row-span-1 text-[#034b93]/90 mt-[3.5%] h-fit overflow-hidden">
         <div className="flex gap-6">
         <div className="flex gap-6 animate-loop-scroll ">
             {TESTIMONIALS.map((t, index) => (
-               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] overflow-clip flex rounded-2xl">
+               <div key={index} className="h-fit md:w-[420px] md:h-[80%] p-[10px] md:p-[20px] w-[270px]  bg-[#098bb8]/15 rounded-t-none overflow-clip flex rounded-2xl">
                <div className="flex items-center w-full">
                <div className="w-[20%]">
                {t.image}
@@ -75,7 +75,7 @@ const Hero2 = () => {
         </div>
         <div className="flex gap-6 animate-loop-scroll ">
             {TESTIMONIALS.map((t, index) => (
-               <div key={index} className="h-fit md:w-[428px] md:h-[80%] p-[10px] md:p-[20px] w-[270px] border-stone-400/10 wavy2 bg-black/5 border-[1px] flex rounded-2xl">
+               <div key={index} className="h-fit md:w-[420px] md:h-[80%] p-[10px] md:p-[20px] w-[270px]  bg-[#098bb8]/15 rounded-t-none flex rounded-2xl">
                <div className="flex items-center w-full">
                 <div className="w-[20%]">
                {t.image}
