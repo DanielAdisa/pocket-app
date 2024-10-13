@@ -14,7 +14,7 @@ import { motion } from "framer-motion"
 const Nav = () => {
   return (
     <section className="mx-auto md:w-7xl md:max-w-full">
-        <nav className="fixed py-[1%] z-50 bg-white md:w-full">
+        <nav className="fixed py-[1%] z-50 bg-white shadow-sm md:w-full">
                 <div className="flex items-center justify-between mx-auto md:max-w-7xl">
                     <div className="flex ml-4">
                         <p className="text-blue-600 rounded-full hover:bg- hover:text-blue-600/35"><GiPayMoney className="text-3xl " /></p>
