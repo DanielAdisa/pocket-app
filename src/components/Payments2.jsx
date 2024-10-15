@@ -1,7 +1,7 @@
 import { MdOutlineSendToMobile } from "react-icons/md";
 import { GiReceiveMoney } from "react-icons/gi";
 import { GiPiggyBank } from "react-icons/gi";
-import phone from "../assets/calculator.png"
+
 import upwards from "../assets/upway.jpeg"
 import { SiWwise } from "react-icons/si";
 import { SiAwssecretsmanager } from "react-icons/si";
@@ -58,7 +58,7 @@ const Payments2 = () => {
 
 
             <div className="relative flex flex-col justify-end w-full col-span-1 row-start-3 p-4 overflow-hidden md:h-full md:row-start-3 md:row-span-2 md:col-start-1 md:col-span-2 rounded-2xl isolate">
-              <img src={phone} alt="" class="absolute blur-sm  inset-0 h-full w-full object-cover"/>
+              {/* <img src={phone} alt="" class="absolute blur-sm  inset-0 h-full w-full object-cover"/> */}
               <div class="absolute inset-0 bg-gradient-to-t from-black  "></div>
               <h3 class="z-10 mt-3 md:text-3xl font-bold text-white">Transact</h3>
               <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">...with ease</div>
