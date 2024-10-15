@@ -1,7 +1,7 @@
 import { MdOutlineSendToMobile } from "react-icons/md";
 import { GiReceiveMoney } from "react-icons/gi";
 import { GiPiggyBank } from "react-icons/gi";
-import phone from "../assets/phoneguy.jpg"
+import phone from "../assets/calculator.png"
 import upwards from "../assets/upway.jpeg"
 import { SiWwise } from "react-icons/si";
 import { SiAwssecretsmanager } from "react-icons/si";

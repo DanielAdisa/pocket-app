@@ -20,7 +20,7 @@ const Hero2 = () => {
   return (
     <section className="p-[1.5%] pr-0 pl-0 pb-0 h-screen mx-auto  text-black md:w-7xl md:max-w-7xl pt-[6%] rounded-3xl">
      <div className="grid w-full h-full grid-cols-1 mt-[0.5%] grid-rows-4">
-        <div className="col-span-1 mt-1 mt wavy rounded-t-none row-span-3 rounded-[2em] flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
+        <div className="col-span-1 mt-1 mt wavy rounded-t-none row-span-3 rounded-[2em] pr-0 flex w-full h-full justify-center pt-0 overflow-hidden p-[5%] pb-0">
             <div className="w-[50%] h-full flex-1 content-center ">
                 <motion.h1 
                 whileInView={{opacity: 1,x:0}}
@@ -45,15 +45,15 @@ const Hero2 = () => {
                     className=" flex items-center tracking-wide mt-[5%] bg-white/15 rounded-xl w-fit pr-[4%] pl-[4%] p-[2%] gap-3 border-white/30 border-[2px]"><FaApple className="text-xl "/>App Store</motion.p>
                 </div>
             </div>
-            <div className="w-[50%] h-full flex items-end justify-end overflow-hidden">
+            <div className="w-[50%] h-full flex items-end justify-center overflow-hidden">
                 <motion.img
-                whileInView={{opacity: 1, y:0}}
-                initial={{opacity:1 , y:500}}
+                whileInView={{opacity: 1, y:0,x:0}}
+                initial={{opacity:1 , y:500,x:200}}
                 transition={{duration:1.5, }}
                 src={phone} className=" overflow-hidden h-[85%]" alt="" />
             </div>
         </div>
-        <div className="w-full col-span-1 row-span-1 text-[#034b93]/90 mt-[3.5%] h-fit overflow-hidden">
+        <div className="w-full col-span-1 row-span-1 text-[#034b93]/80 mt-[3.5%] h-fit overflow-hidden">
         <div className="flex gap-6">
         <div className="flex gap-6 animate-loop-scroll ">
             {TESTIMONIALS.map((t, index) => (

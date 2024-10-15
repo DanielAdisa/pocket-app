@@ -1,9 +1,11 @@
 import Cards from "./components/Cards"
+import Cardsection from "./components/Cardsection"
 import Download from "./components/Download"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Hero1 from "./components/Hero1"
 import Hero2 from "./components/Hero2"
+import Hero3 from "./components/Hero3"
 import Nav from "./components/Nav"
 import Payments from "./components/Payments"
 import Payments1 from "./components/Payments1"
@@ -14,14 +16,15 @@ import Testimonials1 from "./components/Testimonials1"
 
 const App = () => {
   return (
-    <div className="overflow-hidden text-stone-900 md:mx-auto">
+    <div className="overflow-hidden">
       <Nav />
-      <Hero2 />
+      <Hero3 />
+      {/* <Cardsection/> */}
       {/* <Testimonials1 /> */}
-      <Payments2 />
+      {/* <Payments2 /> */}
       {/* <Services /> */}
-      <Download />
-      <Footer />
+      {/* <Download /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -1,18 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
-  font-family: "Quicksand", sans-serif;
+
   background: #fff;
+  
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('../src/assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-family: 'Aon-Reg';
+  src: url('../src/assets/fonts/Regular.otf') format('opentype');
+  font-family: 'Aon-Med';
+  src: url('../src/assets/fonts/Medium.otf') format('opentype');
+  font-family: 'Aon-Light';
+  src: url('../src/assets/fonts/Light.otf') format('opentype');
+  font-family: 'Aon-Bold';
+  src: url('../src/assets/fonts/Bold.otf') format('opentype');
 }
 
 .hero{
-  background-image: url('../src/assets/bg3.png') ;
+  background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/668579443c754abfd31329d2_Ghana%20new-1.webp');
   background-size: cover;
+  background-position: 0 0,61%;
   background-clip: border-box;
   
 
@@ -30,10 +46,10 @@
 }
 
 .ash{
-  background: #f4f3f5 url(../src/assets/ash.png);
-  background-position: -50px 20px;
-  background-size: 65%;
+  background: url(../src/assets/waves.png);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: white transparent;
   padding-bottom: 0;
   padding-top: 1em;
 }
@@ -69,4 +85,20 @@
   background: #212337 url('../src/assets/bg3.png') no-repeat;
   background-size: cover;
   color: #fff;
+}
+
+
+
+.hero2 {
+  position: relative;
+	background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/668579443c754abfd31329d2_Ghana%20new-1.webp');
+	background-position: 0 0,61%;
+	background-size: cover;
+}
+
+.imagehero {
+	z-index: 199;
+	pointer-events: auto;
+	object-fit: cover;
+	inset: auto 0% 0% auto;
 }
