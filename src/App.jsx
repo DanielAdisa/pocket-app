@@ -2,6 +2,7 @@ import Cards from "./components/Cards"
 import Cardsection from "./components/Cardsection"
 import Download from "./components/Download"
 import Footer from "./components/Footer"
+import GridSection from "./components/GridSection"
 import Hero from "./components/Hero"
 import Hero1 from "./components/Hero1"
 import Hero2 from "./components/Hero2"
@@ -19,6 +20,7 @@ const App = () => {
     <div className="overflow-hidden">
       <Nav />
       <Hero3 />
+      <GridSection />
       {/* <Cardsection/> */}
       {/* <Testimonials1 /> */}
       {/* <Payments2 /> */}
