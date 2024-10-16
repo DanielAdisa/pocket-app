@@ -1,3 +1,4 @@
+import AfterGrid from "./components/AfterGrid"
 import Cards from "./components/Cards"
 import Cardsection from "./components/Cardsection"
 import Download from "./components/Download"
@@ -21,6 +22,7 @@ const App = () => {
       <Nav />
       <Hero3 />
       <GridSection />
+      <AfterGrid />
       {/* <Cardsection/> */}
       {/* <Testimonials1 /> */}
       {/* <Payments2 /> */}
