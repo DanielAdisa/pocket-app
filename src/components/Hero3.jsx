@@ -1,6 +1,10 @@
+import svg1 from '../assets/curve.svg';
+
 const Hero3 = () => {
   return (
     <section className="h-screen hero">
+      
+      
          <div className="w-full mx-auto tracking-tight text-white md:w-[1200px] h-screen md:max-w-[1200px]">
           <div className="flex items-center w-full h-full">
             <div className="grid gap-y-10 grid-cols-1 grid-rows-3 w-[610px] h-[510px]">
@@ -16,6 +20,10 @@ const Hero3 = () => {
             </div>
           </div>
          </div>
+         <div className="">
+        <img src={svg1} alt="" className=' imagehero' />
+      </div>
+         
     </section>
   )
 }

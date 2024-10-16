@@ -18,7 +18,7 @@ const Nav = () => {
                 <div className="flex items-center justify-between mx-auto md:max-w-[1200px]">
                     <div className="flex items-center justify-center gap-6 ml-4">
                         <img src={logo} alt="" className=""/>
-                        <p className="rounded-full pt-[3%] pb-[3%] pr-[9%] pl-[9%] bg-white/15 border-[2px] border-white/50  font-grey-lit "> EN </p>
+                        <p className="rounded-full pt-[3%] pb-[3%] pr-[9%] pl-[9%] bg-white/20 border-[2px] border-white/50  font-grey-lit "> EN </p>
                     </div>
                     <div className="flex font-grey-bold pr-0 p-[2%] gap-x-12 ">
                         <p className="rounded-full font-Grey hover:cursor-pointer">Products</p>
@@ -27,7 +27,7 @@ const Nav = () => {
                     </div>
                     <div className="flex items-center pr-0 p-[2%] gap-x-6 ">
                         <p className="rounded-full hover:cursor-pointer">Log In</p>
-                        <p className=" font-meduim pt-[15px] rounded-lg bg-white/15 border-[2px] border-white/50 pb-[15px] pr-[15px] pl-[15px]">Get Started -- It's free</p>
+                        <p className=" font-meduim pt-[15px] rounded-lg bg-white/20 border-[2px] border-white/50 pb-[15px] pr-[15px] pl-[15px]">Get Started -- It's free</p>
                       
                     </div>
                   
