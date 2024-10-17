@@ -13,9 +13,6 @@ const GridSection = () => {
                 <img src={card1} alt="" className="w-[10%]"/>
                 <img src={cnn} alt="" className="w-[10%]"/>
                 <img src={bloom} alt="" className="w-[10%]"/>
-                <img src={bloom} alt="" className="w-[10%]"/>
-                <img src={bloom} alt="" className="w-[10%]"/>
-                
             </div>
             
         </div>

@@ -10,40 +10,40 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const AfterGrid = () => {
   return (
-    <section className="w-full mx-auto md:w-[1200px] mt-[100px] h-fit md:max-w-[1200px]">
+    <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-10 h-fit md:max-w-[1200px]">
        <div className="flex-col w-full h-fit">
-            <div className="flex w-full p-4 mb-0 grid-blue border-b-0 border-r-0 border-[1.2px] rounded-xl h-fit">
+            <div className="flex w-full pl-[71.8px] pt-[71.8px] pb-[67.5px] mb-0 grid-blue border-b-0 border-r-0 border-[1.2px] rounded-xl h-fit">
                 <div className=" w-[30%] font-grey-bold leading-[64px] text-[50px]">
-                    <p className="text-[#5e19b3]">Fast, Safe, Social Payments</p>
+                    <p className="text-[#1b1f28] text-covert">Fast, Safe, Social Payments</p>
                 </div>
-                <div className=" w-[45%] flex-col h-full content-end mt-4 mb-0 ">
-                    <p className="text-[20px] font-grey-reg leading-tight  ">Get paid faster, send money securely, unlock free airtime and more, all in one place.</p>
+                <div className=" w-[45%] flex-col h-full content-end mb-0 ">
+                    <p className="text-[20px] font-grey-reg leading-tight text-[#1b1f28] text-convertsmall ">Get paid faster, send money securely, unlock free airtime and more, all in one place.</p>
                     <p className="text-[19px] flex font-grey-med pt-[3%] pb-[3%] text-[#2467e3] items-center gap-3 text-start mt-4 w-[35%] rounded-md border-[1px] leading-[26px]">Get Spot  <IoArrowForwardCircleOutline /> </p>
                 </div>
             </div>
-            <div className=" purple-grid border-b-0 border-l-0 border-[1.2px] rounded-xl p-4 mt-[10px]">
-               <img src={image} alt="" className="" />
+            <div className=" purple-grid   rounded-xl mt-[20px]">
+               <img src={image} alt="" className="w-full " />
             </div>
-            <div className="flex w-full text-black/90 greengrid rounded-xl mt-[10px] space-x-4 p-4">
-                <div className="flex-col w-[25%] space-y-3">
-                    <MdPaid className="h-[50px] w-[50px] "/>
-                    <p className="text-[1.5rem] font-grey-bold">Get Paid</p>
-                    <p className="text-[1rem] w-[80%] font-grey-med ">Instant, free payments so you get your money fast.</p>
+            <div className="flex w-full text-[#363f52] greengrid rounded-xl mt-[20px] space-x-[20px] pl-[71.8px] pt-[71.8px] pb-[67.5px]  ">
+                <div className="flex-col w-[25%] space-y-[10px]">
+                    <MdPaid className="h-[50px] text-[#1b1f28] w-[50px] "/>
+                    <p className="text-[1.5rem] font-grey-bold text-[#1b1f28] flextext">Get Paid</p>
+                    <p className="text-[1rem] w-[85%] font-grey-med text-convertsmall2 text-[#1b1f28] ">Instant, free payments so you get your money fast.</p>
                 </div>
-                <div className="flex-col w-[25%] space-y-3">
-                    <FaShoppingCart className="h-[50px] w-[50px] "/>
-                    <p className="text-[1.5rem] font-grey-bold">Spend Together</p>
-                    <p className="text-[1rem] w-[80%] font-grey-med ">Save for shared expenses with free group accounts.</p>
+                <div className="flex-col w-[25%] space-y-[10px]">
+                    <FaShoppingCart className="h-[50px] text-[#1b1f28] w-[50px] "/>
+                    <p className="text-[1.5rem] font-grey-bold text-[#1b1f28] flextext">Spend Together</p>
+                    <p className="text-[1rem] w-[85%] font-grey-med text-convertsmall2 text-[#1b1f28] ">Save for shared expenses with free group accounts.</p>
                 </div>
-                <div className="flex-col w-[25%] space-y-3">
-                    <GiWallet className="h-[50px] w-[50px] "/>
-                    <p className="text-[1.5rem] font-grey-bold">Skip the Fees</p>
-                    <p className="text-[1rem] w-[80%] font-grey-med ">No monthly account or card transaction fees.</p>
+                <div className="flex-col w-[25%] space-y-[10px]">
+                    <GiWallet className="h-[50px] text-[#1b1f28] w-[50px] "/>
+                    <p className="text-[1.5rem] font-grey-bold text-[#1b1f28] flextext">Skip the Fees</p>
+                    <p className="text-[1rem] w-[85%] font-grey-med text-convertsmall2 text-[#1b1f28] ">No monthly account or card transaction fees.</p>
                 </div>
-                <div className="flex-col w-[25%] space-y-3">
-                    <AiOutlineSafetyCertificate className="h-[50px] w-[50px] "/>
-                    <p className="text-[1.5rem] font-grey-bold">Instant Rewards</p>
-                    <p className="text-[1rem] w-[80%] font-grey-med ">Stay connected with Airtime Rewards on every purchase.</p>
+                <div className="flex-col w-[25%] space-y-[10px]">
+                    <AiOutlineSafetyCertificate className="h-[50px] text-[#1b1f28] w-[50px] "/>
+                    <p className="text-[1.5rem] font-grey-bold text-[#1b1f28] flextext">Instant Rewards</p>
+                    <p className="text-[1rem] w-[85%] font-grey-med text-convertsmall2 text-[#1b1f28] ">Stay connected with Airtime Rewards on every purchase.</p>
                 </div>
             </div>
        </div>

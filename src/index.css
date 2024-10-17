@@ -114,7 +114,7 @@
 
   .purple-grid {
     background-color: #efe4fb;
-    background-image: linear-gradient(130deg,#efe4fb 35%,#e5cfff 74%);
+    background-image: linear-gradient(145deg,#efe4fb 35%,#e5cfff 74%);
     border-color: #e4cbff;
   }
 
@@ -122,4 +122,45 @@
 
       background-color: #f0f8e5;
       background-image: linear-gradient(140deg,#f0f8e5 38%,#e2fac0 92%);
+  }
+
+  .text-covert {
+   
+      letter-spacing: -1px;
+      font-size: 50px;
+      line-height: 1;
+  }
+
+  .text-convertsmall{
+
+      text-align: left;
+      letter-spacing: -.15px;
+      justify-content: flex-start;
+      align-self: flex-start;
+
+
+      font-size: 1.25em;
+      line-height: 1.6
+  }
+
+  .text-convertsmall2{
+
+    text-align: left;
+    letter-spacing: -.15px;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+
+    font-size: 1.25em;
+
+}
+
+
+  .flextext{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 30px;
+
   }
