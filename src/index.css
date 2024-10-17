@@ -105,3 +105,21 @@
     position: absolute;
     inset: auto 0% 0% auto;
   }
+
+  .grid-blue {
+    background-color: #e8f0fc;
+    background-image: linear-gradient(138deg,#e8f0fc 35%,#bfd6fa 92%);
+    border-color: #80abf1;
+  }
+
+  .purple-grid {
+    background-color: #efe4fb;
+    background-image: linear-gradient(130deg,#efe4fb 35%,#e5cfff 74%);
+    border-color: #e4cbff;
+  }
+
+  .greengrid{
+
+      background-color: #f0f8e5;
+      background-image: linear-gradient(140deg,#f0f8e5 38%,#e2fac0 92%);
+  }
