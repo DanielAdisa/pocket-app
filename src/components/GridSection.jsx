@@ -9,9 +9,11 @@ const GridSection = () => {
             <div className=" w-[20%]">
                 <p className="tracking-[0.25em] text-[0.875rem] text-[#8592ad] text-start font-grey-reg">AS SEEN ON</p>
             </div>
-            <div className=" w-[80%] mb-0 justify-between flex">
+            <div className=" w-[80%] mb-0 justify-between items-center flex">
                 <img src={card1} alt="" className="w-[10%]"/>
+                <div className="border-[5px] border-black/60 "/>
                 <img src={cnn} alt="" className="w-[10%]"/>
+                <div className="border-[5px] border-black/60 "/>
                 <img src={bloom} alt="" className="w-[10%]"/>
             </div>
             
