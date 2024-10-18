@@ -14,7 +14,7 @@ import { motion } from "framer-motion"
 const Nav = () => {
   return (
     <section className="w-full  mx-auto tracking-tight text-white md:w-[1200px] md:max-w-[1200px] font-grey-med h-fit">
-        <nav  className="fixed h-fit z-50 mx-auto shadow-sm bg-transparet md:w-[1200px]">
+        <nav  className="fixed h-fit z-50 mx-auto md:w-[1200px]">
                 <div className="flex items-center justify-between mx-auto md:max-w-[1200px]">
                     <div className="flex items-center justify-center gap-6 ml-4">
                         <img src={logo} alt="" className=""/>

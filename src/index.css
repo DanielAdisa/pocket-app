@@ -26,8 +26,8 @@
 }
 
 .hero{
-  background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/668579443c754abfd31329d2_Ghana%20new-1.webp');
-  background-size: cover;
+  background-image: linear-gradient(151deg,#098cb889 9%,#fff0 61%),url('../src/assets/iPhone 15 Mockup, Perspective(1).png');
+  background-size: cover !important;
   background-position: 0 0,61%;
   background-clip: border-box;
   
@@ -91,7 +91,7 @@
 
 .hero2 {
   position: relative;
-	background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/668579443c754abfd31329d2_Ghana%20new-1.webp');
+	background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('../src/assets/iPhone 15 Mockup, Perspective(1).png');
 	background-position: 0 0,61%;
 	background-size: cover;
 }
@@ -118,11 +118,23 @@
     border-color: #e4cbff;
   }
 
-  .greengrid{
+  .greengrid1{
 
       background-color: #f0f8e5;
       background-image: linear-gradient(140deg,#f0f8e5 38%,#e2fac0 92%);
   }
+
+  .greengrid2 {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    background-color: #f0f8e5;
+    background-image: linear-gradient(140deg,#95d8ef 25%,#6bb2d7 92%);
+    border-radius: 20px;
+    height: 40em;
+    max-height: 40em;
+}
+
+  
 
   .text-covert {
    
