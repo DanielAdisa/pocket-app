@@ -121,8 +121,8 @@
   }
 
   .greengrid1{
-    background: rgb(255,227,74);
-background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 80%); 
+    background: rgb(255,173,52);
+    background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%);
       border-radius: 20px;
   }
 
@@ -197,8 +197,8 @@ background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 8
   }
 
   .illustrationtwo {
-    background: rgb(255,227,74);
-background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 80%); 
+    background: rgb(255,173,52);
+    background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%); 
 	height: 363px;
   border-radius: 20px;
 	max-height: 363px;
@@ -214,4 +214,24 @@ background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 8
 	max-height: 363px;
   position: relative;
   overflow: hidden;
+}
+
+.illustrationtwo1 {
+  background: rgb(255,173,52);
+  background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%); 
+
+border-radius: 20px;
+
+position: relative;
+overflow: hidden;
+}
+
+.illustrationtwo2 {
+  background-color: #f0f8e5;
+  background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+
+border-radius: 20px;
+
+position: relative;
+overflow: hidden;
 }
