@@ -1,4 +1,4 @@
-import image from "../assets/calculator.png"
+import image from "../assets/rocket.png"
 
 const Started = () => {
   return (
