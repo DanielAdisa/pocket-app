@@ -262,3 +262,16 @@ overflow: hidden;
   height: 50px;
 }
 
+.footerheading {
+  color: #f4f5f7;
+  -webkit-text-stroke-color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footertext {
+  color: #939aaa;
+  -webkit-text-stroke-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+}

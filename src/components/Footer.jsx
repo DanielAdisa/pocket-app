@@ -7,7 +7,7 @@ import phone from "../assets/phonewave.png"
 
 const Footer = () => {
   return (
-    <section className="w-full mx-auto p-[71.8px] mt-[50px] h-fit bg-black/90  rounded-t-[1.5em]">
+    <section className="w-full mx-auto p-[71.8px] mt-[50px] h-fit bg-[#07090e]  rounded-t-[1.5em]">
         <div className="mx-auto md:w-[1200px] h-fit max-h-fit md:max-w-[1200px]">
             <div className="flex-col content-center w-full h-full">
                 <p className="text-center font-grey-bold heading4 w-[500px] mx-auto ">Get digital banking at your fingertips</p>
@@ -17,15 +17,33 @@ const Footer = () => {
                 </div>
             </div>
             <div className="mt-[1em]  overflow-hidden ">
-                <div className="flex w-full  items-center justify-center gap-5 mt-[2em]">
-                    <div className="w-1/2 h-[30em] wavy rounded-[20px]">
-                        <img src={phone} alt=""  className=" w-[80%] mx-auto rounded-[20px]"/>
+                <div className="flex-col w-full  items-center justify-center  gap-10 mt-[2em]">
+                    <div className="w-1/3 h-fit mx-auto wavy2 rounded-[20px]">
+                        <img src={phone} alt=""  className=" mx-auto  rounded-[20px]"/>
                     </div>
-                    <div className="w-1/2">
-                        <div className="w-1/4 ">hi</div>
-                        <div className="w-1/4 ">there</div>
-                        <div className="w-1/4 ">bro</div>
-                        <div className="w-1/4 ">me</div>
+                    <div className="flex w-2/3 gap-5 p-5 py-10 mx-auto h-fit">
+                        <div className="w-1/3 text-center text-white font-grey-reg ">
+                            <p className="mb-5 footerheading font-grey-bold">Contact Us</p>
+                            <p className="mb-3 footertext">litepay.com</p>
+                            <div className="flex items-center justify-center w-full gap-4">
+                                <FaSquareXTwitter className=""  />
+                                <TiSocialInstagram className=""/>
+                                <MdAttachEmail className="" />
+                            </div>
+                        </div>
+                        
+                        <div className="w-1/3 text-center text-white font-grey-reg ">
+                            <p className="mb-5 footerheading font-grey-bold">Products</p>
+                            <p className="mb-3 footertext">Money Transfer</p>
+                            <p className="mb-3 footertext">Agents</p>
+                        </div>
+                        
+                        <div className="w-1/3 text-center text-white font-grey-reg ">
+                            <p className="mb-5 footerheading font-grey-bold">Company</p>
+                            <p className="mb-3 footertext">litepay.com</p>
+                        </div>
+                        
+
                     </div>
                 </div>
             </div>
