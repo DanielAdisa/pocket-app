@@ -18,8 +18,8 @@ const Footer = () => {
             </div>
             <div className="mt-[1em]  overflow-hidden ">
                 <div className="flex-col w-full  items-center justify-center  gap-10 mt-[2em]">
-                    <div className="w-1/3 h-fit mx-auto wavy2 rounded-[20px]">
-                        <img src={phone} alt=""  className=" mx-auto  rounded-[20px]"/>
+                    <div className="w-1/3 h-fit mx-auto -rotate-1 hover:rotate-0 wavy2 transition-all duration-100 ease-in-out delay-150 rounded-[20px] overflow-hidden">
+                        <img src={phone} alt=""  className=" mx-auto transition-all ease-in-out hover:scale-105 rounded-[20px]"/>
                     </div>
                     <div className="flex w-2/3 gap-5 p-5 py-10 mx-auto h-fit">
                         <div className="w-1/3 text-center text-white font-grey-reg ">

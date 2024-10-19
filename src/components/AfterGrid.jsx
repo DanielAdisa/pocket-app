@@ -18,7 +18,7 @@ const AfterGrid = () => {
                 </div>
                 <div className=" w-[45%] flex-col h-full content-end mb-0 ">
                     <p className="text-[20px] font-grey-reg leading-tight text-[#1b1f28] text-convertsmall ">Get paid faster, send money securely, unlock free airtime and more, all in one place.</p>
-                    <p className="text-[19px] flex font-grey-med pt-[3%] pb-[3%] text-[#2467e3] items-center gap-3 text-start mt-4 w-[35%] rounded-md border-[1px] leading-[26px]">Get Spot  <IoArrowForwardCircleOutline /> </p>
+                    <p className="text-[19px] flex font-grey-med text-white/90 items-center gap-3 text-start mt-[100px] w-[35%] leading-[26px] pt-[3%] pb-[3%] ">Get Spot  <IoArrowForwardCircleOutline /> </p>
                 </div>
             </div>
             <div className="  pb-0 pl-0 p-0.5  rounded-[20px] mt-[20px]">

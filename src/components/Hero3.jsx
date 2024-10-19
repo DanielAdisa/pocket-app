@@ -15,7 +15,7 @@ const Hero3 = () => {
                  <p className="leading track text-[1.1rem] tracking-normal font-grey-med">Free foreign accounts for remote workers, freelancers, creators, and digital nomads in Ghana. Get paid from anywhere, and withdraw in Ghanaian Cedis (GHS) or USDC instantly.</p>
                </div>
                <div className="w-[30%] col-span-1 row-start-3 ">
-                 <p className=" text-sm font-grey-bold rounded-md bg-blue-600 pt-[10%] pb-[10%] pr-[2%] pl-[2%] text-center">Get Started - Its Free</p>
+                 <p className=" text-sm font-grey-bold rounded-full bg-[#098bb8] pt-[10%] pb-[10%] pr-[2%] pl-[2%] text-center">Get Started - Its Free</p>
                </div>
             </div>
           </div>
