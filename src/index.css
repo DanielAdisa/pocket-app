@@ -107,8 +107,9 @@
   }
 
   .grid-blue {
-    background-color: #e8f0fc;
-    background-image: linear-gradient(138deg,#e8f0fc 35%,#bfd6fa 92%);
+    background-color: #f0f8e5;
+    background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+    border-radius: 20px;
     border-color: #80abf1;
     border-radius: 20px;
   }
@@ -122,7 +123,7 @@
   .greengrid1{
 
       background-color: #f0f8e5;
-      background-image: linear-gradient(140deg,#f0f8e5 38%,#e2fac0 92%);
+      background-image: linear-gradient(#e5fbeb,#cff7db);
       border-radius: 20px;
   }
 
@@ -187,3 +188,30 @@
     font-size: 3.6rem;
   }
 
+  .illustration {
+    background-color: #f0f8e5;
+    background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+    border-radius: 20px;
+    height: 363px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .illustrationtwo {
+    background-image: linear-gradient(#e5fbeb,#cff7db);
+	height: 363px;
+  border-radius: 20px;
+	max-height: 363px;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustrationthree {
+  background-color: #f0f8e5;
+  background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+  height: 363px;
+  border-radius: 20px;
+	max-height: 363px;
+  position: relative;
+  overflow: hidden;
+}
