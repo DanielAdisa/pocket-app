@@ -14,6 +14,7 @@ import Payments1 from "./components/Payments1"
 import Payments2 from "./components/Payments2"
 import Pays from "./components/Pays"
 import Services from "./components/Services"
+import Started from "./components/Started"
 import Testimonials from "./components/Testimonials"
 import Testimonials1 from "./components/Testimonials1"
 
@@ -25,6 +26,7 @@ const App = () => {
       <GridSection />
       <AfterGrid />
       <Pays />
+      <Started />
       {/* <Cardsection/> */}
       {/* <Testimonials1 /> */}
       {/* <Payments2 /> */}

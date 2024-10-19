@@ -1,4 +1,4 @@
-import image from "../assets/afterhero.png"
+import image from "../assets/balls.mp4"
 import { MdPaid } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";import { GiWallet } from "react-icons/gi";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
@@ -21,8 +21,8 @@ const AfterGrid = () => {
                     <p className="text-[19px] flex font-grey-med pt-[3%] pb-[3%] text-[#2467e3] items-center gap-3 text-start mt-4 w-[35%] rounded-md border-[1px] leading-[26px]">Get Spot  <IoArrowForwardCircleOutline /> </p>
                 </div>
             </div>
-            <div className="  pb-0 pl-0 p-0.5  rounded-xl mt-[20px]">
-               <img src={image} alt="" className="w-full rounded-md " />
+            <div className="  pb-0 pl-0 p-0.5  rounded-[20px] mt-[20px]">
+               <video autoPlay src={image} alt="" className="w-full object-cover  muted autoPlay loop playsInline rounded-[20px] " />
             </div>
             <div className="flex w-full text-[#363f52] greengrid1 rounded-xl mt-[20px] space-x-[20px] pl-[71.8px] pt-[71.8px] pb-[67.5px]  ">
                 <div className="flex-col w-[25%] space-y-[10px]">

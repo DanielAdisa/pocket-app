@@ -110,6 +110,7 @@
     background-color: #e8f0fc;
     background-image: linear-gradient(138deg,#e8f0fc 35%,#bfd6fa 92%);
     border-color: #80abf1;
+    border-radius: 20px;
   }
 
   .purple-grid {
@@ -122,11 +123,11 @@
 
       background-color: #f0f8e5;
       background-image: linear-gradient(140deg,#f0f8e5 38%,#e2fac0 92%);
+      border-radius: 20px;
   }
 
   .greengrid2 {
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
+   
     background-color: #f0f8e5;
     background-image: linear-gradient(140deg,#95d8ef 25%,#6bb2d7 92%);
     border-radius: 20px;
@@ -145,22 +146,20 @@
 
   .text-convertsmall{
 
-      text-align: left;
+
       letter-spacing: -.15px;
-      justify-content: flex-start;
-      align-self: flex-start;
+
+
 
 
       font-size: 1.25em;
-      line-height: 1.6
+      line-height: 1.
   }
 
   .text-convertsmall2{
 
-    text-align: left;
     letter-spacing: -.15px;
-    justify-content: flex-start;
-    align-self: flex-start;
+  
 
 
     font-size: 1.25em;
@@ -176,3 +175,15 @@
       line-height: 30px;
 
   }
+
+  .headcard {
+    width: 600px;
+    line-height: 1;
+    margin-top: .5em;
+    margin-bottom: 0;
+    line-height: 3.7rem;
+    letter-spacing: -1px;
+    color: #1b1f28;
+    font-size: 3.6rem;
+  }
+
