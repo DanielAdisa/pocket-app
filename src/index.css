@@ -121,9 +121,8 @@
   }
 
   .greengrid1{
-
-      background-color: #f0f8e5;
-      background-image: linear-gradient(#e5fbeb,#cff7db);
+    background: rgb(255,227,74);
+background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 80%); 
       border-radius: 20px;
   }
 
@@ -198,7 +197,8 @@
   }
 
   .illustrationtwo {
-    background-image: linear-gradient(#e5fbeb,#cff7db);
+    background: rgb(255,227,74);
+background: linear-gradient(30deg, rgba(255,227,74,1) 20%, rgba(250,255,191,1) 80%); 
 	height: 363px;
   border-radius: 20px;
 	max-height: 363px;
